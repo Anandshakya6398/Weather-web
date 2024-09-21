@@ -5,8 +5,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: slategrey; */
-    /* background-color: #2c3e50; */
     background-image: linear-gradient(to right, rgb(63, 63, 78) , rgb(12, 17, 17));
     background-size: cover;
     height: 90px;
@@ -22,7 +20,6 @@ header{
     outline: none;
     color: white;
     background-color: transparent;
-    /* padding: 1rem 0; */
     border: none;
     border-bottom: 2px solid white;
     width: 84%;
@@ -38,7 +35,6 @@ button {
 }
 main{
     height: calc( 100vh - 90px );
-    /* background-color: rgb(18, 17, 19); */
     background-image: linear-gradient(to right, rgb(18, 8, 65) , rgb(83, 46, 58));
     background-size: cover;
     opacity: 1;
