@@ -1,0 +1,63 @@
+html{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: slategrey; */
+    /* background-color: #2c3e50; */
+    background-image: linear-gradient(to right, rgb(63, 63, 78) , rgb(12, 17, 17));
+    background-size: cover;
+    height: 90px;
+}
+.input-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#input-box {
+    font-size: 1.1rem;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    /* padding: 1rem 0; */
+    border: none;
+    border-bottom: 2px solid white;
+    width: 84%;
+}
+
+button {
+    background-color: #44ad96;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: .5rem 1rem;
+}
+main{
+    height: calc( 100vh - 90px );
+    /* background-color: rgb(18, 17, 19); */
+    background-image: linear-gradient(to right, rgb(18, 8, 65) , rgb(83, 46, 58));
+    background-size: cover;
+    opacity: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-container{
+    display: flex;
+    gap: 1.5rem;
+}
+.location{
+    font-size: 2rem;
+}
+.tempreture{
+    font-size: 1.3rem;
+}
+.Day{
+    color: rgb(6, 152, 243);
+    font-size: 1.2rem;
+}
